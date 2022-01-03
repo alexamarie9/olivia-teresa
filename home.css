@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 12px;
+   font-family: "Old Standard TT", Helvetica;
+   color: black;
+   font-weight: 700;
+ }
+
+
+ img {
+   max-width: 100%;
+   height: auto;
+   size: 10px;
+   object-fit: contain;
+ }
+
+ img:hover{
+   transform: scale(1.1);
+   transition: transform .6s; /* Animation */
+ }
+
+ .nav{
+   margin-left: 2.5%;
+   margin-top: 2.5%;
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: row;
+
+}
+
+ .work{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top:2.6%;
+   align-content: center;
+   /*
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   */
+}
+
+ #item{
+   padding: 1px;
+   width: 375px;
+   height: 325px;
+   display: inline-block;
+   line-height: 150px;
+ }
+
+ a:link{
+text-decoration: none;
+color:black;
+
+ }
+
+ a:visited{
+    text-decoration: none;
+    color: black;
+
+ }
+
+ a:hover{
+   text-decoration: none;
+ }
+
+ a:active{
+   text-decoration: none;
+ }
+
+ .title{
+    font-size: 20px;
+    font-weight: 200;
+    }
+
+ #about-picture{
+   width: 500px;
+   height: 450px;
+ }
+
+ #about-picture:hover{
+    transform: scale(1);
+ }
+
+ .about{
+    margin-top: 4.5%;
+    margin-left: 2.5%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: "Noto Sans", Helvetica;
+    word-wrap: break-word;
+ }
+
+ .contact{
+   margin-top: 8%;
+   font-family: "Noto Sans", Helvetica;
+   text-align: center;
+ }
