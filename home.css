@@ -106,3 +106,10 @@ color:black;
    font-family: "Noto Sans", Helvetica;
    text-align: center;
  }
+
+ .credit{
+   text-align: right;
+   font-size: 11px;
+   margin-right: .7%;
+   font-family: Montserrat, Helvetica;;
+ }
